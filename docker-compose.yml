@@ -1,0 +1,12 @@
+Docker compose.yml
+
+version: "3.8"
+services:
+  phishing-detection:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
