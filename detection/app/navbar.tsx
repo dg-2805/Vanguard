@@ -11,7 +11,7 @@ const Navbar = () => {
     <nav className="w-full bg-gradient-to-r from-blue-400 via-blue-600 to-blue-800 px-4 py-4 shadow-lg">
       <div className="mx-auto flex max-w-6xl items-center justify-center">
         {" "}
-        {/* Changed justify-between to justify-center */}
+        {}
         <div className="flex space-x-4">
           <Link
             href="/"

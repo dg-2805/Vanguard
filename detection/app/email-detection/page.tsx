@@ -10,7 +10,6 @@ export default function EmailDetection() {
 
   const analyzeEmail = async () => {
     setIsLoading(true);
-    // Mock analysis - replace with actual API call
     setTimeout(() => {
       const isSpam = Math.random() > 0.5;
       setResult(
@@ -40,7 +39,7 @@ export default function EmailDetection() {
                 setInput(e.target.value);
                 setResult(null);
               }}
-              className="w-full h-64 p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-black" // Added text-black here
+              className="w-full h-64 p-4 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent text-black"
               placeholder="Paste the email content here..."
             />
             <button

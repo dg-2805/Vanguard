@@ -10,7 +10,6 @@ export default function SMSDetection() {
 
   const analyzeSMS = async () => {
     setIsLoading(true);
-    // Mock analysis - replace with actual API call
     setTimeout(() => {
       const isSpam = Math.random() > 0.5;
       setResult(
