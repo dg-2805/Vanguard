@@ -1,7 +1,5 @@
 # Vanguard - AI-Powered Phishing Detection System
 
-![Vanguard Logo](./assets/vanguard-logo.png)
-
 ## Overview
 Vanguard is an AI-powered phishing detection system designed to identify and mitigate phishing attacks. It utilizes machine learning to analyze email content, URLs, and website data, offering real-time threat intelligence and scalable security solutions for organizations and individuals.
 
@@ -70,9 +68,6 @@ To update the blacklist:
 python src/threat_intelligence/blacklist_updater.py
 ```
 
-## Documentation
-For detailed technical documentation, refer to [TechnicalDocumentation.pdf](./docs/TechnicalDocumentation.pdf).
-
 ## Evaluation Metrics
 - **Detection Accuracy**:
   - Precision: 0.94
@@ -89,9 +84,6 @@ Contributions are welcome! Please follow these steps:
 3. Commit your changes (`git commit -m 'Add new feature'`).
 4. Push to the branch (`git push origin feature-branch`).
 5. Open a pull request.
-
-## License
-This project is licensed under the MIT License. See [LICENSE](./LICENSE) for details.
 
 ## Contact
 For questions or feedback, please contact:
